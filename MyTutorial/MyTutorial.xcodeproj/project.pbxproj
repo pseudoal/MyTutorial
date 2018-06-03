@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E79035D220C4123100E32BB5 /* MyTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79035D520C4123100E32BB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E79035DC20C412A300E32BB5 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E79035D520C4123100E32BB5 /* main.cpp */,
+				E79035DC20C412A300E32BB5 /* main.h */,
 			);
 			path = MyTutorial;
 			sourceTree = "<group>";
