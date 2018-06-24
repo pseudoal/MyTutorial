@@ -10,7 +10,8 @@
 #include "main.h"
 
 int main(int argc, const char * argv[]) {
-    
+    MyClass::listTest();
+    /*
     int valX, valY;
     
     std::cout << "Enter first value: ";
@@ -34,8 +35,27 @@ int main(int argc, const char * argv[]) {
     {
          std::cout << valX << " / " << valY << " = " << resDivide << "\n";
     }
-    
+    */
     return 0;
+}
+
+void MyClass::listTest()
+{
+    std::cout << "Enter five numbers...\n";
+    int *list = new int[5];
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << ">> ";
+        std::cin >> list[i];
+        //std::cout << "\n";
+    }
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << (i + 1) << ": " << list[i] << "\n";
+    }
+    std::cout << "Deleting the list...\n";
+    delete[] list;
+    std::cout << "List successfully deleted!\n";
 }
 
 /**

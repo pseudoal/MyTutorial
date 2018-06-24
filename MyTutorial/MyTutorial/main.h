@@ -12,6 +12,7 @@
 class MyClass
 {
 public:
+    static void listTest();
     static int AddFunc(int x, int y);
     static int SubtractFunc(int x, int y);
     static int MultiplyFunc(int x, int y);
